@@ -1,0 +1,35 @@
+.App {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    .todo {
+      display: flex;
+      padding: 5px;
+      margin-top: 10px;
+
+      .text {
+        width: 150px;
+        font-size: 20px;
+        margin-right: 10px;
+      }
+      .button-list {
+        .remove {
+          cursor: pointer;
+          padding: 5px;
+          border-radius: 5px;
+          background-color: #f56;
+          font-size: 18px;
+          color: #fff;
+        }
+      }
+      
+    }
+  }
+}
